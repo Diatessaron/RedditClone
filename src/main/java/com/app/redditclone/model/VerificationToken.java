@@ -13,7 +13,6 @@ import java.time.Instant;
 @Entity
 @Table(name = "token")
 public class VerificationToken {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
